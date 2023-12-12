@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="_detail_name" type="id" />
+    <item name="_card_image" type="id" />
+    <item name="_image_detail" type="id" />
+    <item name="_detail_local" type="id" />
+    <item name="_detail_persons" type="id" />
+    <item name="_card_local" type="id" />
+    <item name="_image_local" type="id" />
+    <item name="_detail_time" type="id" />
+</resources>
