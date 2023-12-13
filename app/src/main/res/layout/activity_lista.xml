@@ -18,7 +18,7 @@
         <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:id="@+id/_list_image"
+            android:id="@+id/listImage"
             android:src="@drawable/ic_action_image"
             android:scaleType="centerCrop"
             android:layout_marginStart="5dp"
@@ -30,21 +30,21 @@
         <TextView
             android:layout_width="220dp"
             android:layout_height="30dp"
-            android:id="@+id/_list_names"
+            android:id="@+id/listNames"
             android:text="@string/d1"
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_toEndOf="@id/_list_image"/>
+            android:layout_toEndOf="@id/listImage"/>
 
         <TextView
-            android:id="@+id/_list_data"
+            android:id="@+id/listData"
             android:layout_width="100dp"
             android:layout_height="30dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="32dp"
-            android:layout_toEndOf="@+id/_list_image"
+            android:layout_toEndOf="@+id/listImage"
             android:gravity="center_vertical"
             android:text="12/12/2023"
             android:textSize="16dp" />
